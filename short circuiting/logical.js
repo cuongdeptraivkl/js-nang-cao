@@ -4,7 +4,7 @@ console.log('----------------AnD-----------------');
 //l thường thường khi so sánh nó sẽ trả ra kiểu bolem
 // nhưng toán tử logic sẽ không trả về kiểu bolem
 
-// có 6 giá trị trong JS nó sẽ trả về false
+// có 6 giá trị trong JS nó sẽ trả về FALSE
 /*
     0
     ''
@@ -17,10 +17,12 @@ console.log('----------------AnD-----------------');
 var result = 'a' && 'b'&& 'c';
 console.log(result);//c
 
-//======> khi dùng toán tử AND, ní sẽ đọc từ về trái sang. Nếu gặp 1 trong 6 giá trị nêu trên, nó sẽ nhận và gán vào biến đang gọi với giá trị đó, đuồng nghĩa sẽ ngưng xét các giá trị đnagwf sau 
+//======> khi dùng toán tử AND, ní sẽ đọc từ về trái sang.
+// Nếu gặp 1 trong 6 giá trị nêu trên, nó sẽ nhận và gán vào biến đang gọi với giá trị đó, 
+//đuồng nghĩa sẽ ngưng xét các giá trị đnagwf sau 
 // VD:
 
-var test = 'a' && 'b'&& null & 'cường đẹp trai';
+var test = 'a' && 'b'&& null && 'cường đẹp trai';
 console.log(test);// null 
 
 
